@@ -1,0 +1,28 @@
+session:
+  name: "vagrant"
+  windows:
+    - name: "src"
+      clear: true
+      options:
+        synchronize-panes: false
+      root: "$HOME/Projects/PHP/Examples/vagrant-test/"
+      layout: even-horizontal
+      filters:
+        before:
+          - "echo 'initial task'"
+        #after:
+          #- "echo 'finish'"
+      panes:
+        - cmd:
+            - "echo 'hello world'"
+        - cmd:
+            - "vim ./"
+          focus: true
+    - name: "vagrant"
+      clear: true
+      root: "$HOME/Projects/PHP/Examples/vagrant-test/"
+      panes:
+        - cmd:
+            - "echo 'vagrant'"
+          focus: true
+          
