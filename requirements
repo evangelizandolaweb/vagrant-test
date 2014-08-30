@@ -9,3 +9,9 @@ Vagrant:
 
 virtualbox
     https://www.virtualbox.org/wiki/Downloads
+
+vagrant box:
+    http://www.vagrantbox.es/
+
+box a usar:
+    vagrant box add precise64 http://files.vagrantup.com/precise64.box
